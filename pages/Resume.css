@@ -1,0 +1,211 @@
+.AITextbox {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    border-radius: 10px;
+  }
+  
+  .box {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonRow {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3e89ca;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+  }
+  
+  .button:hover {
+    background-color: #23527c;
+  }
+  
+  .verification-screen {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  textarea {
+    width: 300px;
+    height: 150px;
+  }
+
+  .vbtn{
+    color: black;
+  }
+
+  .sbtn{
+    margin-top:20px;
+    font-size: 1.3em;
+    font-family: "Source Sans Pro", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 10px;
+    color: #fff;
+    background-color: transparent; 
+    border: 4px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    border-radius: 25px;
+  }
+  
+  .sbtn:hover{
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  }
+
+  .vbtn{
+    margin-top:20px;
+    font-size: 1.3em;
+    font-family: "Source Sans Pro", sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+    background-color: transparent; 
+    border: 4px solid black;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    border-radius: 25px;
+  }
+  
+  .vbtn:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  }
+
+  .file-upload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+
+  .custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #337ab7; 
+    color: white;            
+    border-radius: 5px;   
+    border: none;
+    font-size: 16px;        
+    transition: background-color 0.3s; 
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #23527c; 
+  }
+
+  input[type="file"] {
+    font-size: 16px;         
+    display: none;           
+  }
+
+  .inputText{
+    position: relative;
+    top: 50%;
+    width: 90%
+  }
+
+  .inputImage {
+    width: 70px; 
+    position: relative; 
+    top: 0; 
+    left: 0; 
+    margin-bottom: 10px;
+}
+
+  .inputSubmit{
+    position: relative;
+    top: 50%;
+  }
+
+  .textBot {
+    background-color: #3FB997;
+    height: 80%;
+    width: 300px;
+    position: fixed; /* or 'absolute' if you prefer */
+    right: 2.5%;
+    top: 15%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.scrollable {
+  max-height: 200px; 
+  overflow-y: auto;  
+  padding: 10px; 
+  margin-bottom: 10px; 
+}
+
+.input-container {
+  display: flex;               /* Use flexbox for layout */
+  align-items: center;        /* Center items vertically */
+  justify-content: space-between; /* Space between input and button */
+  margin-top: 10px;          /* Space between messages and input */
+}
+
+.inputText1 {
+  flex: 1;                    /* Take remaining space */
+  padding: 10px;             /* Add some padding */
+  border: 1px solid #ddd;    /* Light border */
+  border-radius: 5px;        /* Rounded corners */
+  font-size: 16px;           /* Font size */
+  margin-right: 10px;        /* Space between input and button */
+}
+
+.inputSubmit1 {
+  padding: 10px 20px;        /* Padding for button */
+  border: none;              /* Remove border */
+  border-radius: 5px;        /* Rounded corners */
+  background-color: #3e89ca; /* Button background color */
+  color: white;              /* Text color */
+  cursor: pointer;           /* Pointer cursor */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.inputSubmit:hover {
+  background-color: #23527c; /* Darker color on hover */
+}

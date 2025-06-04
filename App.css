@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  background: #348871;
+  background: radial-gradient(at left top, #348871, #66B43C);
+  min-height: 100vh;
+}
+
+.buttonRow{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
